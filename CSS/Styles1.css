@@ -1,0 +1,419 @@
+    body {
+  background-image: url("Images/Backround.png");
+  background-repeat: no-repeat;
+  background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.promo {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFA6E;
+    font-size: 20pt;
+    font-family: 'Calibri';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: bold;
+    color: #64BB70;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #2f2fa2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+
+}
+
+nav a {
+    font-size: 30pt;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Impact';
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+nav a:hover {
+    color: #F2A828;
+    text-decoration: underline;
+
+}
+
+nav a:active {
+    color: #F2A828;
+    text-decoration: underline;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Leelawadee UI';
+    color: #64BB70;
+    margin: 80px;
+    font-size: 40px;
+
+
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+ 
+
+}
+
+
+
+
+/* ````````````````````CONTACT US`````````````````````````*/
+
+.icons {
+    width: 80%;
+    height: 20px;
+    margin: 25px auto;
+
+}
+
+.info {
+    width: 100%;
+    margin: 10px;
+    align-content: center;
+    border-spacing: 30px;
+}
+
+.i1 {
+    height: 75px;
+    margin: 10px;
+
+}
+
+.tr:nth-child(1) {
+
+    margin: 10px;
+    align-items: center;
+}
+
+tr:nth-child(2) {
+    margin: 10px;
+    text-align: center;
+    font-family: "Leelawadee UI";
+    font-size: 30pt;
+    margin: 10px;
+    padding: 10px;
+}
+
+tr:nth-child(3) {
+    margin: 10px;
+    text-align: center;
+    font-family: "Leelawadee UI";
+    font-size: 17pt;
+    margin: 10px;
+}
+
+tr:nth-child(4) {
+    margin: 10px;
+    text-align: center;
+    font-size: 12pt;
+    font-family: "Leelawadee UI";
+    text-decoration: none;
+    margin: 10px;
+}
+
+.loc {
+    width: 80%;
+    margin: 10px;
+
+}
+
+/*````````````````````HOMEPAGE`````````````````````````*/
+
+.secpromo {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Courier New';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2A828;
+    background-color: #000000;
+
+}
+
+.bannerbatch1 {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.bb1 {
+    width: 45%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bb2 {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    font-size: 20;
+    font-family: 'Impact';
+    color: #64BB70;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bannerbatch2 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bb4 {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.bb3 {
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20;
+    font-family: 'Impact';
+    align-items: right;
+    padding-left: 5px;
+    color: #64BB70;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*-------------Shop-----------------------------*/
+.shop>h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: #000000;
+}
+
+.shop>product {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop>product>span {
+    align-items: center;
+    color: #64BB70;
+    text-decoration: bold;
+    display: list-item;
+    justify-content: center;
+}
+
+.shop>product>span>h2 {
+    font-size: 40px;
+    text-decoration: bold;
+    font-family: 'Courier New';
+}
+
+.shop>product>span>h3 {
+    font-size: 30px;
+    font-family: 'Courier New';
+    text-align: left;
+    color: #000000;
+    margin: 10;
+}
+
+.shop>product>span>img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.shop>product>span>h4 {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+}
+
+.shop>product>span>cart {
+    background-color: #FFFA6E;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New';
+    color: #000000;
+    font-size: 25px;
+    border: 2px solid #e6de00;
+    border-radius: 30px;
+}
+
+.shop>product>span>cart>img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.shop>div {
+    height: 700px;
+    width: 100%;
+    margin: 0;
+}
+
+.shop>div>h1 {
+    font-size: 40px;
+    text-decoration: bold;
+    font-family: 'Courier New';
+    text-decoration: overline;
+    justify-content: center;
+    display: flex;
+    align-content: space-around;
+}
+
+.shop>div>div {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop>div>div>span {
+    height: 300px;
+    width: 20%;
+    border: 1px solid red;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pimg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*------------------------offers------------------------*/
+
+.offers{
+
+}
+
+.offers > img{
+    margin: 0 auto;
+    
+}
+
+/*-------------------------footer-----------------------*/
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+    display: block;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.sl {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    color: #FFFFFF;
+    opacity: .5;
+    font-family: 'Courier New';
+    font-size: 23pt;
+    display: flex;
+    align-items: center;
+}
+
+.li {
+    width: 75%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Courier New';
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+}
+
+.table1 {
+    text-decoration: none;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Courier New';
+
+}
+
+.ft:nth-child(1) {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18pt;
+    color: #FFFFFF;
+    opacity: .5;
+}
+
+.ft:nth-child(2) {
+    text-decoration: none;
+    text-align: right;
+    font-size: 15pt;
+    color: #FFFFFF;
+
+}
+
+.ft:nth-child(3) {
+    text-decoration: none;
+    text-align: right;
+    font-size: 15pt;
+    color: #FFFFFF;
+}
+
+.cr {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    font-family: 'Courier New';
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2A828;
+    opacity: .5;
+}
